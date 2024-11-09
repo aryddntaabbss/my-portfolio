@@ -30,7 +30,7 @@ function Home() {
           {/* Back Image */}
           <div className="lg:max-w-lg lg:w-full w-auto">
             <img
-              className="object-cover object-center rounded h-full"
+              className="object-cover object-center rounded"
               alt="hero"
               src="/images/hero.png"
             />
@@ -38,7 +38,7 @@ function Home() {
           {/* Front Image */}
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:max-w-lg w-auto">
             <img
-              className="object-cover object-center rounded h-full"
+              className="object-cover object-center rounded"
               alt="arya"
               src="/images/arya.png"
             />
