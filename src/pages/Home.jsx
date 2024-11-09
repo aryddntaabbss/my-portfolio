@@ -40,7 +40,7 @@ function Home() {
             <img
               className="object-cover object-center rounded"
               alt="arya"
-              src="/images/arya.png"
+              src="/images/arya1.png"
             />
           </div>
         </div>
