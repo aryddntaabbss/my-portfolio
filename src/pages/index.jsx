@@ -1,5 +1,3 @@
-// src/pages/index.jsx
-import React from "react";
 import Home from "./Home";
 import About from "./About";
 import Skill from "./Skill";

@@ -1,6 +1,3 @@
-// src/App.jsx
-
-import React from "react";
 import useThemeToggle from "./components/ThemeToggle";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
@@ -17,7 +14,7 @@ function App() {
 
       {/* Main Content */}
       <main className="flex-grow">
-        <Pages /> {/* Menampilkan semua halaman dari komponen Pages */}
+        <Pages />
       </main>
 
       {/* Footer */}
