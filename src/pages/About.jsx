@@ -1,4 +1,3 @@
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faAddressCard,
@@ -12,7 +11,7 @@ function About() {
   return (
     <section id="about" className="text-gray-600 dark:text-gray-300 body-font">
       <div className="container px-5 pt-16 mx-auto flex flex-col">
-        <div className="lg:w-full w-full lg:mb-0 text-center">
+        <div className="lg:w-full w-full lg:pb-10 text-center">
           <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 dark:text-gray-100">
             <FontAwesomeIcon icon={faAddressCard} className="mr-2" /> About Me
           </h1>
@@ -71,7 +70,7 @@ function About() {
         <div className="flex justify-center">
           <div className="relative">
             <h1 className="sm:text-3xl text-2xl font-medium title-font pb-10 text-gray-900 dark:text-gray-100">
-              <FontAwesomeIcon icon={faRocket} className="mr-2" />
+              <FontAwesomeIcon icon={faRocket} className="mr-5" />
               Experience
             </h1>
 

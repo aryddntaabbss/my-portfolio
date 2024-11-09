@@ -1,4 +1,3 @@
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
@@ -8,12 +7,12 @@ function Contact() {
       id="contact"
       className="text-gray-600 dark:text-gray-300 body-font relative"
     >
-      <div className="lg:w-full w-full lg:mb-0 text-center">
+      <div className="lg:w-full w-full lg:pt-10 text-center">
         <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 dark:text-gray-100">
           <FontAwesomeIcon icon={faEnvelope} className="mr-2" /> Contact
         </h1>
       </div>
-      <div className="container px-5 py-16 mx-auto flex sm:flex-nowrap flex-wrap">
+      <div className="container px-5 py-10 mx-auto flex sm:flex-nowrap flex-wrap">
         {/* Map Section */}
         <div className="lg:w-2/3 md:w-1/2 bg-gray-300 dark:bg-gray-700 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative">
           <iframe

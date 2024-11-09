@@ -1,4 +1,3 @@
-import React from "react";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faPython,
@@ -81,8 +80,8 @@ function Skill() {
   return (
     <section id="skill" className="text-gray-600 dark:text-gray-300 body-font">
       <div className="container px-5 py-16 mx-auto">
-        <div className="w-full pb-10 text-center">
-          <h1 className="sm:text-3xl text-2xl font-medium title-font text-gray-900 dark:text-gray-100">
+        <div className="w-full text-center lg:pb-10">
+          <h1 className="sm:text-3xl text-2xl font-medium title-font mb-3 text-gray-900 dark:text-gray-100">
             <FontAwesomeIcon icon={faCode} className="mr-2" /> Skill
           </h1>
           <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-600 dark:text-gray-400">

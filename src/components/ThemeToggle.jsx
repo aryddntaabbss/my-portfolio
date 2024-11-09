@@ -1,26 +1,35 @@
 import { useState, useEffect } from "react";
 
-const useThemeToggle = () => {
-  const [isDarkMode, setIsDarkMode] = useState(
-    localStorage.getItem("theme") === "dark"
-  );
+function useThemeToggle() {
+  // Menyimpan status tema awal dari localStorage
+  const [isDarkMode, setIsDarkMode] = useState(() => {
+    const savedTheme = localStorage.getItem("theme");
+    return savedTheme === "dark";
+  });
 
-  useEffect(() => {
-    // Terapkan tema saat komponen dimuat berdasarkan `isDarkMode`
+  // Fungsi untuk mengganti tema
+  const toggleTheme = () => {
     if (isDarkMode) {
-      document.documentElement.classList.add("dark");
-      localStorage.setItem("theme", "dark");
-    } else {
       document.documentElement.classList.remove("dark");
       localStorage.setItem("theme", "light");
+      setIsDarkMode(false);
+    } else {
+      document.documentElement.classList.add("dark");
+      localStorage.setItem("theme", "dark");
+      setIsDarkMode(true);
+    }
+  };
+
+  // Menyinkronkan tema saat komponen pertama kali dimuat
+  useEffect(() => {
+    if (isDarkMode) {
+      document.documentElement.classList.add("dark");
+    } else {
+      document.documentElement.classList.remove("dark");
     }
   }, [isDarkMode]);
 
-  const toggleTheme = () => {
-    setIsDarkMode((prevMode) => !prevMode);
-  };
-
-  return toggleTheme;
-};
+  return { isDarkMode, toggleTheme };
+}
 
 export default useThemeToggle;
