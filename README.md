@@ -10,7 +10,7 @@ I'm a passionate web developer with a keen eye for detail and a love for craftin
 - **Languages:** HTML, CSS, JavaScript, TypeScript, PHP
 - **Frameworks:** React, Laravel
 - **Back-end:** Node.js, Laravel
-- **Databases:** MySQL, Firebase
+- **Databases:** MySQL
 - **Version Control:** Git, GitHub
 - **Tools:** Webpack, Docker, Figma, Postman
 
