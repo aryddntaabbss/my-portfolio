@@ -55,7 +55,7 @@ function Projects() {
                   className="mb-4"
                 >
                   <img
-                    className="h-40 w-full object-cover rounded"
+                    className="w-auto object-cover rounded"
                     src={project.image}
                     alt={project.name}
                   />
