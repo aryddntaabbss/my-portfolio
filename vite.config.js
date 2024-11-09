@@ -16,14 +16,14 @@ export default defineConfig( {
         display: 'standalone',
         icons: [
           {
-            src: '/logo 192x192.ico',
+            src: '/images/logo192x192',
             sizes: '192x192',
-            type: 'image/x-icon',
+            type: 'image/png',
           },
           {
-            src: '/logo 512x512.ico',
+            src: '/images/logo512x512',
             sizes: '512x512',
-            type: 'image/x-icon',
+            type: 'image/png',
           },
         ],
       },
