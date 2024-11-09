@@ -28,7 +28,7 @@ function Home() {
         {/* Right Column: Image Content */}
         <div className="relative flex justify-center items-center md:w-1/2 w-full sm:mt-10 mt-5">
           {/* Back Image */}
-          <div className="lg:max-w-lg lg:w-full w-3/4">
+          <div className="lg:max-w-lg lg:w-full w-auto">
             <img
               className="object-cover object-center rounded h-full"
               alt="hero"
@@ -36,7 +36,7 @@ function Home() {
             />
           </div>
           {/* Front Image */}
-          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:max-w-lg w-1/2 sm:w-3/4">
+          <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 lg:max-w-lg w-auto">
             <img
               className="object-cover object-center rounded h-full"
               alt="arya"
