@@ -36,7 +36,7 @@ function Projects() {
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-3 text-gray-900 dark:text-gray-100">
             <FontAwesomeIcon icon={faMedal} className="mr-2" /> My Projects
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-600 dark:text-gray-400">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-600 pb-3 dark:text-gray-400">
             A showcase of my recent work, highlighting creativity, technical
             expertise, and dedication to impactful experiences.
           </p>
@@ -69,6 +69,7 @@ function Projects() {
                     {project.name}
                   </a>
                 </h2>
+                <div className="w-12 h-1 bg-indigo-500 justify-center rounded mt-2 mb-4"></div>
                 <p className="leading-relaxed text-base text-gray-600 dark:text-gray-400">
                   {project.description}
                 </p>

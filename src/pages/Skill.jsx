@@ -84,7 +84,7 @@ function Skill() {
           <h1 className="sm:text-3xl text-2xl font-medium title-font mb-3 text-gray-900 dark:text-gray-100">
             <FontAwesomeIcon icon={faCode} className="mr-2" /> Skill
           </h1>
-          <p className="lg:w-2/3 mx-auto leading-relaxed text-base text-gray-600 dark:text-gray-400">
+          <p className="lg:w-2/3 mx-auto leading-relaxed text-base pb-3 text-gray-600 dark:text-gray-400">
             An overview of my technical skills and programming language
             expertise, showcasing a diverse set of proficiencies.
           </p>
