@@ -60,7 +60,7 @@ function Projects() {
                     alt={project.name}
                   />
                 </a>
-                <h2 className="text-lg text-black dark:text-white font-bold title-font mb-2">
+                <h2 className="text-xl text-black dark:text-white font-bold title-font mb-2">
                   <a
                     href={project.link}
                     target="_blank"
